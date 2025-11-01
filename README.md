@@ -19,7 +19,7 @@ The data used for training / evaluating the model are organized in the [data]() 
 ## Training IFPGen
 ### Training from scratch
 ```
-Python scripts/train_IFP.py configs/training.yml --device {DEVICE} --logdir {LOGDIR} --index {INDEX} --processed {PROCESSED}`
+Python scripts/train_IFP.py configs/training.yml --device {DEVICE} --logdir {LOGDIR} --index {INDEX} --processed {PROCESSED} --split {SPLIT}`
 ```
 
 ```
@@ -28,6 +28,7 @@ Arguments:
    --logdir     Directory where the training results are saved (str)
    --index      Dataset index file (str)
    --processed  Processed dataset path (str)
+   --split      Dataset split path (str)
 ```
 ### Trained model checkpoint
 [Link]()
