@@ -1,0 +1,14 @@
+seed: 2021
+num_samples: 100
+num_steps: 1000
+pos_only: False
+center_pos_mode: protein
+sample_num_atoms: prior
+# ----------------------------------------------
+energy_drift:
+  - type: clash
+    sigma: 2
+    gamma: 4
+# ----------------------------------------------
+use_pointcloud: False
+use_pointcloud_radius: 0.2
