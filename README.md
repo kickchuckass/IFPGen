@@ -9,7 +9,7 @@ You can install the required packages by running the following commands:
 `conda env create -n IFPGen -f environment.yml`
 
 ## Data processing
-The data used for training / evaluating the model are organized in the [data](https://zenodo.org/records/17499950) Google Drive folder.
+The data used for training / evaluating the model are organized in the [Link](https://zenodo.org/records/17499950).
 
 | Dataset      | Link |
 | ----------- | ----------- |
