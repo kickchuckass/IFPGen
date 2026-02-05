@@ -9,7 +9,7 @@ You can install the required packages by running the following commands:
 `conda env create -n IFPGen -f environment.yml`
 
 ## Data processing
-The data used for training / evaluating the model are organized in the [data]() Google Drive folder.
+The data used for training / evaluating the model are organized in the [data](https://zenodo.org/records/17499950) Google Drive folder.
 
 | Dataset      | Link |
 | ----------- | ----------- |
@@ -87,7 +87,7 @@ Arguments:
 ## Ligands sampled from CrossDocked2020 test set
 We generated 100 ligands for each pocket of the CrossDocked2020 benchmark set via the non-iterative and iterative methods of IFPGen respectively, following the splitting method proposed by [Luo et al](https://arxiv.org/pdf/2203.10446).
 
-You can download the generated molecules from [Zenodo]() (two methods, 10,000 molecules each).
+You can download the generated molecules from [Link](https://drive.google.com/drive/folders/1z-Bii_xXa65UPV43nz5VUXNbwiJQXoCT?usp=sharing).
 
 ## Citation
 ```
